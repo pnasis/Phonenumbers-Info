@@ -16,7 +16,7 @@ print(timezone.time_zones_for_number(mobileNo))
 # Getting region information
 print(geocoder.description_for_number(mobileNo, "en"))
 
-key = 'b3e11918ebc6439fb5a921bc7b19d6ed'
+key = ''
 geocoder = OpenCageGeocode(key)
 location = geocoder.description_for_number(mobileNo, "en")
 query = str(location)
